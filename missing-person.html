@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav__header">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F2545B;">
+        <div class="container">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item mt-2">
+                <a class="nav-link active" aria-current="page" href="#">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><button class="btn btn-light" type="button" style="color: #F2545B;">Contact Us</button></a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Found People</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container text-center">
+        <h1 class="form__title">Contact Us</h1>
+        <h3 class="form__subtitle">Contact us via email or through the form below</h3>
+        <div class="btn__group">
+          <a href="enquiries.html"><button class="btn ">Enquiries & Request</button></a>
+          <a href="complaints.html"><button class="btn">Complaints Form</button></a>
+          <a href="missing-person.html"><button class="btn btn__active">Seen a Missing Person</button></a>
+        </div>
+      </div>
+
+      <div class="container">
+        <form class="form">
+          <h2 class="form__header">Make an Enquiry or Request</h2>
+          <p class="sub__text">Bear in mind that the information you provide is STRICTLY confidential and identity is PROTECTED</p>
+          <div class="form__row">
+            <div class="form__item">
+              <label><b>Name or Alias of missing person</b></label>
+              <input type="text" placeholder="Enter names of missing person">
+            </div>
+
+            <div class="form__item">
+              <label><b>Last location Missing person is seen</b></label>
+              <input type="text" placeholder="Enter the last location of missing person">
+            </div>
+          </div>
+
+          <!-- <div class="form__row"> -->
+            <div class="form__item1">
+              <label><b>The state you last saw the missing person</b></label>
+              <input type="text" placeholder="The state you last saw the missing person">
+            </div>
+          <!-- </div> -->
+
+            <div class="form__row">
+              <div class="form__item">
+                <label><b>Full Name</b></label>
+                <input type="text" placeholder="Enter your full name">
+              </div>
+
+              <div class="form__item">
+                <label><b>Email</b></label>
+                <input type="text" placeholder="Enter your email address">
+              </div>
+            </div>
+
+
+            <div class="form__item">
+              <label><b>Other Information</b></label>
+              <textarea id="message" placeholder="Enter other informations here"></textarea>
+            </div>
+        </form>
+      </div>
+    </main>
+</body>
+</html>
