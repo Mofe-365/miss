@@ -37,6 +37,29 @@
     color: white;
 }
 
+.btn {
+    width: 30%;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .btn__group {
+        padding: 17px 0;
+    }
+
+    .form__row {
+        flex-direction: column;
+    }
+
+    .form__item label {
+        margin-bottom: 1rem;
+    }
+
+    .form__item {
+        margin-bottom: 1rem;
+    }
+}
+
 .form {
     width: 90%;
     margin: 0 auto;
